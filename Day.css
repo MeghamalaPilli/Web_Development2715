@@ -8,39 +8,34 @@
          h1
          {
             text-align:left;
-            text-shadow: 2px 2px 4px #000000;
-            background-color:lightblue;
-            color:orange;
+            text-shadow: 2px 2px 4px blacksss;
+            color:black;
+
          }
          img
          {
             border-radius:100px;
             
          }
-         hr{
-            border:1px solid orange;
-            margin:20px 0;
-         }
          #name,#email
          {
-            border:2px solid orange;
-            border-radius:15px;
             height:25px;
             width:200px;
-                
+            border:none;
+            background:transparent;
          }
          #message
          {
-            border:2px solid orange;
-            border-radius:15px;
             height:auto;
             width:500px;
-
+            border:none;
+            background:transparent;
          }
          table
          {
             color:green;
-            border:2px solid orange;
+            border:1px solid lightslategray;
+            
          }
          th
          {
@@ -54,47 +49,44 @@
             color:black;
             background-color:white;
          }
-         .profilecard
+         .profilecard  /* session-1 */
          {
-            background-color:white;
-            width:300px;
             display:center;
+            border-radius:none;
+            border:1px double lightslategray;
+            width:90%;
             padding:2%;
             margin:20px auto;
-            border-radius:15px;
-            border:2px double orange;
          }
-        .profilecard img
+        .profilecard img /* session-1 */
          {
             display:block;
             border-radius:50%;
             border:5px solid lightblue;
             object-fit:cover;
-            width:150px;
-            height:150px;
-            margin:0 auto;
+            
          }
         .profilecard .name
          {
-            text-align:center;
-            font-weight:800;
+            text-align:left;
+            font-weight:1000;
             text-shadow:2px 2px 4px darkgray;
          }
          .des
          {
-            text-align:center;
+            text-align:left;
             font-weight:600;
             object-fit:cover;
             text-shadow:2px 2px 4px darkgray;
          }
          .loc
          {
-            text-align:center;
+            text-align:left;
             text-shadow:2px 2px 4px darkgray;
          }
          h2
          {
-            text-align:center;
+            text-align:left;
             text-shadow:2px 2px 4px darkgray;
          }
          .class
@@ -104,20 +96,63 @@
          .about
          {
             font-size:16px;
-            line-height:1.5;
+            line-height:1.6;
             color:firebrick
          }    
          .skills
          {
-            color:blueviolet;
-            background-color:lightskyblue;
             line-height:1.5;
+            display:inline;
+         }
+         .skills li
+         {
+            display:inline-block;
+            padding: 5px 15px;
+            margin: 5px;
+            border-radius:5px;
+         }
+         .skills li::before{
+            content: "\2022";
+            font-weight:800;
+         }
+         .contact
+         {
+            text-decoration:none;
          }
          .button
          {
-            color:white;
-            background-color:green;
-            border-radius:15px;
-            padding:10px 20px;
             font-weight:600;
+            border:1px solid black;
+            text-decoration:none;
+            text-align:left;
+            border:none;
+            border-radius:0;
+            width:100%;
+            display:block;
+            transition-duration:0.45em;
+         }
+         .button:hover
+         {
+            color:white;
+            background-color:#1b3651;
+
+         }
+         .card
+         {
+            width:90%;
+            display:center;
+            padding:2%;
+            margin:20px auto;
+            border-radius:none;
+            border:1px double lightslategray;
+         }
+         .skills-card
+         {
+            background-color:lightgreen;
+            width:90%;
+            display:center;
+            padding:2%;
+            margin:20px auto;
+            border-radius:none;
+            border:1px double lightslategray;
          }
