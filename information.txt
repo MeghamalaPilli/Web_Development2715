@@ -1,0 +1,30 @@
+Used CSS :
+
+-> Selectors:- Which targets a particular element and affects it on a webpage.
+I have used 2 types of selectors in this project
+It includes:
+ 1 class :To target multiple elements sharing the same class name and it starts with " . "
+ 2 id :To target a single element sharing the unique id and it starts with "#"
+ 3 element : to target the same element names 
+   ex: h1,p,body, ...etc
+-> Units :To represent the legth of particular content on a webpage
+  ex: - px,%,rm,em..etc
+-> Text-Properties like 
+   text-align - to align the text to be in left or right or center.
+   text-decoration - to keep the element with no decoration like underline,overline,etc.
+   text-shadow - to add the shadow to the text with color.
+   font-weight - to thicken the text .
+   font-size - to set the size of the font.
+-> display - to display a particular element inline.
+-> object-fit - to keep the image fit properly on the webpage.
+-> border-radius - to keep the image border and cards in a particular shape.
+-> border - to keep the border to the elements .
+-> transition-duration - to add the timeline to the hover effect.
+-> color - to add the color to the text.
+-> background-color - to add the color to the background.
+-> padding : - to add the spaces inside the border.
+-> margin: -to add the spaces outside the border which makes space between elements.
+-> line-height - to add the space between line to line.
+
+
+
