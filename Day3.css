@@ -1,0 +1,232 @@
+       body
+         {
+            background-color:lightblue;
+            font-family:'Times New Roman', Times, serif;
+            width:80%;
+            margin:auto;
+         }
+        .topbutton
+         {
+            position:fixed;
+            bottom:0;
+            text-decoration:none;
+            border:1px solid lightslategray;
+            border-radius:15px;
+            padding:5px;
+            transition-duration:0.45em;
+         }
+        .topbutton:hover
+        {
+            color:white;
+            background-color:darkblue;
+        }
+   
+         h1
+         {
+            text-align:left;
+            text-shadow: 2px 2px 4px darkgray;
+            color:black;
+
+         }
+         .name
+         {
+            width:100%;
+         }
+         img
+         {
+            border-radius:100px;
+            
+         }
+         #name,#email
+         {
+            height:25px;
+            width:200px;
+            border:none;
+            background:transparent;
+         }
+         #message
+         {
+            height:auto;
+            width:500px;
+            border:none;
+            background:transparent;
+         }
+         table
+         {
+            color:green;
+            border:1px solid lightslategray;
+            
+         }
+         th
+         {
+            color:black;
+            background-color:teal;
+            text-shadow:2px 2px 4px darkgray;
+            padding:10px;
+         }
+         td
+         {
+            color:black;
+            background-color:white;
+         }
+         .profilecard  /* session-1 */
+         {
+            border-radius:none;
+            border:1px double lightslategray;
+            width:90%;
+            padding:1%;
+            margin:20px auto;
+            display:flex;
+            flex-direction:row;
+            justify-content:space-between;
+            align-items:center;
+            flex-wrap:wrap;
+         }
+
+         .links
+         {
+            display:flex;
+            gap:20px;
+            flex-wrap:wrap;
+         }
+         .links a
+         {
+            text-decoration:none;
+            color:black;
+            font-weight:bold;
+      
+            
+         }
+         .about-self
+         {
+            display:flex;
+            flex-direction:row;
+            justify-content:space-between;
+            align-items:center;
+            border-radius:none;
+            border:1px double lightslategrey;
+            width:90%;
+            padding:1%;
+            gap:30px;
+            margin:20px auto;
+            flex-wrap:wrap;
+            position:relative;
+         }
+         .hero
+         {
+            text-align:left;
+            line-height:1.6em;
+            font-weight:400;
+         }
+         .description
+         {
+            line-height:2.5;
+         }
+         .description a
+         {
+            text-decoration:none;
+         }
+         .skills
+         {
+             display:flex;
+             flex-direction:row;
+             justify-content:space-between;
+             margin: 20px auto;
+             width:90%;
+             gap:20px;
+             padding-left:0;
+             flex-wrap:wrap;
+         }
+         .skillss
+         {
+           width:70%;
+           margin-left: 0px auto;
+           padding:2%;
+           text-transform:uppercase;
+         }
+         .flex
+         {
+            
+            display:inline-block;
+            color:black;
+            border:1px solid gray;
+            padding :10px
+            
+         }
+         .image img
+         {
+             width: 180px;
+             height: 180px;
+             border-radius:0%;
+             border: 5px solid lightskyblue;
+             object-fit: cover;
+             display: right;
+
+         }
+         h2
+         {
+            text-align:left;
+            text-shadow:2px 2px 4px darkgray;
+         }
+         .class
+         {
+            text-align:center;
+         }
+         .about
+         {
+            font-size:16px;
+            line-height:1.6;
+            color:black;
+         }    
+         .contact
+         {
+            text-decoration:none;
+            border-radius:15px;
+            border:1px solid lightslategray;
+            padding:6px;
+         }
+         .card
+         {
+            border-radius:none;
+            border:1px double lightslategray;
+            width:90%;
+            padding:1%;
+            margin:20px auto;
+            display:flex;
+            flex-direction:column;
+            justify-content:space-between;
+            align-items:left;
+            flex-wrap:wrap;
+         }
+         .project
+         {
+               display:flex;
+               flex-direction:row;
+               justify-content:space-between;
+               
+         }
+          .flex-card
+         {
+            border-radius:none;
+            border:1px double lightslategray;
+            width:90%;
+            padding:1%;
+            margin:20px auto;
+            display:flex;
+            flex-direction:column;
+            justify-content:space-between;
+            align-items:left;
+            background-color:azure; 
+            flex-wrap: wrap;
+         }
+         .badge 
+         {
+           position:left;
+           background-color:teal;
+           top:10px;
+           bottom: auto;
+           border:1px solid lightslategray;
+           border-radius:50x;
+           padding:2px;
+           cursor: pointer;
+         }

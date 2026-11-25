@@ -28,3 +28,16 @@ It includes:
 
 
 
+Used CSS in Day-3 :
+ 
+* flex box properties like
+-> display: flex - To display the container flexible as it takes the full width of the parent container and gives the essential space to the items then pushes the newx item to the new line.
+-> flex-direction:row/column - it sets the item places that where should place the items either row or column or row-reverse or column-reverse.
+-> justify-content: space-between - it pushes the 1st item to the start edge last item to the end dge and gives the even space among the middle items.
+-> align-items : center - To place the items vertically in center.
+-> flex-wrap : wrap - to wrap on smaller screens.
+-> gap: - to keep certain gap between items.
+-> cursor : to change the cursor type.
+-> position : to fix the position.
+-> transition-duration: to add the time to the button color.
+
